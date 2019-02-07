@@ -1,0 +1,16 @@
+---
+order: simulate
+atype:
+  Nch_VD_ID_dc: dc
+measurement: {}
+postprocess:
+  Nch_VD_ID_dc: "# Nch_VD_ID_dc: dc\n wave = @ltspice.save 'dc.csv', 'dc', 'VD', \n''\n"
+instance: Instance0
+testbench: Nch_VD_ID_copy
+cell: Nch_VD_ID
+library: MOSTR
+project: OR1_models
+simulator: LTspice
+id: 1701
+tbid: 876
+run_dir: public/system/simulation/OR1_models/Nch_VD_ID/Instance0/Nch_VD_ID_copy/LTspice

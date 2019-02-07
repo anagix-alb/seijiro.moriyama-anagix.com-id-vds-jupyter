@@ -1,0 +1,1 @@
+FileUtils.rm_f 'Nch_VD_ID.ipynb'
